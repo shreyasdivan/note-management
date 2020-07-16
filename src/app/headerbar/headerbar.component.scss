@@ -1,0 +1,11 @@
+@import './src/theme.scss';
+
+$primary: map-get($app-theme, primary);
+
+.mat-icon-button{
+    background-color: transparent;
+}
+
+.mat-icon-button:hover {
+    background-color: mat-color($primary,800);
+ }

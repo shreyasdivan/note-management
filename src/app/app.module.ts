@@ -11,12 +11,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { HeaderbarComponent } from './headerbar/headerbar.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderbarComponent,
     
   ],
   imports: [
